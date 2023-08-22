@@ -1,0 +1,9 @@
+//IRRUT100 JOB (F955,BBSC),'IRRUT100',CLASS=A,                          
+//  MSGLEVEL=(1,1),MSGCLASS=H,NOTIFY=&SYSUID,REGION=100M                
+//*                                                                    
+//STEP01   EXEC  PGM=IRRUT100                                          
+//SYSPRINT DD  SYSOUT=*                                                
+//SYSUT1   DD  UNIT=SYSDA,SPACE=(TRK,(5,1))                            
+//SYSIN    DD  *                                                       
+ SOMEONE ID                                                             
+/*                                                                  
